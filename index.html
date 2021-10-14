@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>quiz</title>
+  </head>
+  <body>
+    <div class="togo--container">
+      <div class="togo">
+        Question out of (<span>1</span>/<span class="max--questions">5</span>)
+      </div>
+    </div>
+    <div class="container">
+      <!-- content -->
+      <div class="content">
+        <h1 class="question">Which programming language is Popular for DOM</h1>
+        <!-- options -->
+        <div class="options">
+          <!-- for js insert -->
+          <!-- <div class="option">CSS</div>
+          <div class="option">HTML</div>
+          <div class="option">Python</div>
+          <div class="option">Javascript</div> -->
+        </div>
+        <!-- button -->
+        <div class="btns">
+          <button class="btn btn--submit">SUBMINT</button>
+        </div>
+      </div>
+
+      <div class="result result--hidden">
+        <div class="result--content">
+          You answer correctly <span class="correctly--answered">0</span>/<span
+            class="max--questions"
+          ></span>
+        </div>
+        <!-- retry -->
+        <!-- button -->
+        <div class="btns">
+          <button class="btn btn--retry">retry</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
